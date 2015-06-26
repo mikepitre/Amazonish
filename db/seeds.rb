@@ -13,3 +13,5 @@
                  price: (20..100).to_a.sample,
                  image: "http://placehold.it/100" )
 end
+
+

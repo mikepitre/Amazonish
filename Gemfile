@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.2.0'
+ruby '2.2.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
@@ -59,3 +59,4 @@ gem 'bullet', group: :development
 gem 'bootstrap-sass'
 gem 'react-rails'
 gem 'bcrypt'
+gem 'mandrill_dm'
