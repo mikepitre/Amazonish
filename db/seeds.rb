@@ -7,11 +7,17 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 100.times do
-  Product.create(name: Faker::Commerce.product_name,
+  Product.create(title: Faker::Commerce.product_name,
                  description: Faker::Company.bs,
                  inventory: (20..100).to_a.sample,
                  price: (20..100).to_a.sample,
                  image: "http://placehold.it/100" )
 end
 
+20.times do
+  User.create(name: Faker::Name.name,
+              email: Faker::Internet.email,
+              password_digest: "password",
+              admin: false)
+end
 
