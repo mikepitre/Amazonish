@@ -23,7 +23,7 @@ class ApplicationController < ActionController::Base
     end
   end
 
-  def current_order
+  def cart
     current_user.orders.find_or_create_by(completed: false)
   end
 
